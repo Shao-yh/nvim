@@ -1,0 +1,18 @@
+--follow eggtoopain
+require("plugins.plugins-setup")
+require("core.keymaps")
+require("core.options")
+-- 4. 加载插件配置
+require("plugins.lualine")
+require("plugins.nvim-tree")
+require("plugins.treesitter")
+require("plugins.lsp")
+require("plugins.cmp")
+require("plugins.comment")
+require("plugins.autopairs")
+require("plugins.bufferline")
+require("plugins.gitsigns")
+require("plugins.telescope")
+require("plugins.outline")
+require("plugins.clangd")
+require("plugins.gentags")
